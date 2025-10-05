@@ -4,12 +4,12 @@ body {
   background-color: #fff;
 }
 
-/* Boardroom shared style */
+/* Boardroom shared link */
 .nav-link {
   color: white !important;
 }
 
-/* Morning Brew styles */
+/* Morning Brew */
 .nav-item {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -27,16 +27,16 @@ body {
   color: black;
 }
 
-/* Buzz’s navbar */
+/* Buzz’s */
 h4 {
   margin: 0;
   color: white;
   font-weight: 400;
 }
 
-/* Aloha Beer navbar */
+/* Aloha Beer */
 .aloha-link {
-  color: #212529 !important; /* solid dark gray for visibility */
+  color: #212529 !important;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -46,18 +46,29 @@ h4 {
 
 .aloha-link:hover {
   color: #EDC601 !important;
-  text-decoration: none;
 }
 
 .aloha-shop {
   color: #EDC601 !important;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-size: 17px;
   font-weight: 500;
   margin: 0 0.8rem;
 }
 
-.aloha-shop:hover {
-  color: #c5a701 !important;
-  text-decoration: none;
+/* Duke’s Waikiki */
+.dukes-link {
+  color: white !important;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  transition: color 0.2s ease-in-out;
+}
+
+.dukes-link:hover {
+  color: #F1A228 !important;
+}
+
+.dukes-special {
+  color: #F1A228 !important;
+  font-weight: 600;
+  font-size: 17px;
 }
