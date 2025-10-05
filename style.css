@@ -1,15 +1,16 @@
+🎨 style.css
 body {
   margin: 0;
   padding: 0;
   background-color: #fff;
 }
 
-/* Shared styles */
+/* Shared link color for Boardroom */
 .nav-link {
   color: white !important;
 }
 
-/* Morning Brew navbar styles */
+/* Morning Brew menu items */
 .nav-item {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -25,4 +26,11 @@ body {
 .nav-item.active {
   padding-top: 0px;
   color: black;
+}
+
+/* Buzz's Navbar */
+h4 {
+  margin: 0;
+  color: white;
+  font-weight: 400;
 }
