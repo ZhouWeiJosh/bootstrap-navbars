@@ -1,16 +1,15 @@
-🎨 style.css
 body {
   margin: 0;
   padding: 0;
   background-color: #fff;
 }
 
-/* Shared link color for Boardroom */
+/* Boardroom shared style */
 .nav-link {
   color: white !important;
 }
 
-/* Morning Brew menu items */
+/* Morning Brew styles */
 .nav-item {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -28,9 +27,37 @@ body {
   color: black;
 }
 
-/* Buzz's Navbar */
+/* Buzz’s navbar */
 h4 {
   margin: 0;
   color: white;
   font-weight: 400;
+}
+
+/* Aloha Beer navbar */
+.aloha-link {
+  color: #212529 !important; /* solid dark gray for visibility */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0 0.8rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.aloha-link:hover {
+  color: #EDC601 !important;
+  text-decoration: none;
+}
+
+.aloha-shop {
+  color: #EDC601 !important;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 0.8rem;
+}
+
+.aloha-shop:hover {
+  color: #c5a701 !important;
+  text-decoration: none;
 }
